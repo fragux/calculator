@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+.screen {
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.buttons-row{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+    
+}
+
+.button{
+    flex-basis: 24.5%;
+    height: 100px;
+    border: none;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: #d8d9db;
+    color: black;
+ 
+}
+.button-2x{
+    flex-basis: 49.7%;
+    height: 100px;
+    border: none;
+    text-decoration: none;
+    font-size: 40px;
+}
+.button-3x{
+    flex-basis: 74.7%;
+    height: 100px;
+    border: none;
+    text-decoration: none;
+    font-size: 40px;
+}
+.button-func{
+    background-color: #df974c;
+    color: white;
+}
+.button:hover{
+    background-color: #ebebeb;
+}
+.button:last-child:hover{
+    background-color: #dfb07e;
+}
